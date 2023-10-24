@@ -1,8 +1,8 @@
-body.active-modal {
+/* body.active-modal {
   overflow-y: hidden;
-}
+} */
 
-.btn-modal {
+/* .btn-modal {
   padding: 10px 20px;
   display: block;
   margin: 100px auto 0;
@@ -18,17 +18,20 @@ body.active-modal {
   right: 0;
   bottom: 0;
   position: fixed;
-}
+} */
 
-.overlay {
+
+/* .overlay {
   background: rgba(49, 49, 49, 0.8);
-}
-.modal-content {
+} */
+
+/* I'm not sure why this is so important. IF commented out,
+everything greys out and you can't click the CLOSE button */
+/* .modal-content {
   position: absolute;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  line-height: 1.4;
   background: #f1f1f1;
   padding: 14px 28px;
   border-radius: 3px;
@@ -36,9 +39,10 @@ body.active-modal {
   min-width: 300px;
 }
 
+
 .close-modal {
   position: absolute;
   top: 10px;
   right: 10px;
   padding: 5px 7px;
-}
+} */
